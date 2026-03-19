@@ -22,6 +22,7 @@ export default function RootLayout({
       <body
         className="antialiased"
       >
+        <div className="scanline-overlay" />
         <SmoothScroll>
           {children}
         </SmoothScroll>

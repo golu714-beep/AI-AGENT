@@ -5,6 +5,7 @@ import BentoCard from "./BentoCard";
 import ROICalculator from "./ROICalculator";
 import VoiceVisualizer from "./VoiceVisualizer";
 import VoiceCoreMonitor from "./VoiceCoreMonitor";
+import GlobeComponent from "./Globe";
 import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
 import { 
@@ -77,32 +78,48 @@ const BentoGrid = () => {
         }}
         className="grid grid-cols-1 md:grid-cols-6 gap-6 md:gap-8 lg:gap-8"
       >
-        {/* Row 1 */}
         <BentoCard
           title="Voice Core Alpha"
           description="High-frequency streaming node clusters with distributed computing power and sub-100ms latency."
           icon={<Cpu className="w-7 h-7" />}
           span="md:col-span-4"
           delay={0}
-          className="min-h-[320px] md:min-h-[480px] shadow-2xl"
+          className="min-h-[320px] md:min-h-[480px] shadow-2xl overflow-hidden"
         >
           <VoiceCoreMonitor />
         </BentoCard>
 
+        {/* New Global Card - 2 Column Span */}
+        <BentoCard
+            title="Global Connectivity"
+            description="Autonomous presence across 12+ regions with localized intelligence protocols."
+            icon={<Globe className="w-7 h-7" />}
+            span="md:col-span-2"
+            delay={0.1}
+            className="shadow-2xl overflow-hidden h-full"
+        >
+            <div className="h-full flex items-center justify-center -mt-8">
+              <div className="scale-75 md:scale-95">
+                <GlobeComponent />
+              </div>
+            </div>
+        </BentoCard>
+
+        {/* Workflow Card - Move to next row or span differently */}
         <BentoCard
             title="Workflow Core"
             description="Intelligent calendar synchronization and real-time scheduling logic with zero conflict resolution."
             icon={<Calendar className="w-7 h-7" />}
-            span="md:col-span-2"
-            delay={0.1}
-            className="shadow-2xl"
+            span="md:col-span-6"
+            delay={0.2}
+            className="shadow-2xl min-h-[180px]"
         >
-            <div className="p-3 md:p-6 h-full flex flex-col justify-center gap-1.5 md:gap-3">
-                {[1, 2, 3, 4].map((i) => (
+            <div className="p-3 md:p-6 h-full flex flex-wrap justify-center gap-1.5 md:gap-3">
+                {[1, 2, 3, 4, 5, 6].map((i) => (
                     <motion.div 
                         key={i} 
-                        whileHover={{ x: 8, backgroundColor: "rgba(255,255,255,0.04)" }}
-                        className="flex justify-between items-center bg-white/[0.01] p-2.5 md:p-4 rounded-[0.8rem] md:rounded-[1rem] border border-white/[0.04] backdrop-blur-xl transition-all duration-300 shadow-lg group/item"
+                        whileHover={{ y: -4, backgroundColor: "rgba(255,255,255,0.04)" }}
+                        className="flex-1 min-w-[140px] flex justify-between items-center bg-white/[0.01] p-2.5 md:p-4 rounded-[0.8rem] md:rounded-[1rem] border border-white/[0.04] backdrop-blur-xl transition-all duration-300 shadow-lg group/item"
                     >
                         <div className="flex flex-col gap-1">
                           <span className="text-[10px] font-mono font-black text-gray-500 tracking-[0.3em] uppercase group-hover/item:text-primary transition-colors">SESS_#{(2048 * i).toString(16).toUpperCase()}</span>
@@ -110,9 +127,6 @@ const BentoGrid = () => {
                         </div>
                         <div className="flex items-center gap-3">
                              <div className={cn("w-2 h-2 rounded-full", i === 1 ? "bg-primary animate-pulse shadow-[0_0_10px_rgba(139,92,246,0.8)]" : "bg-gray-800")} />
-                             <span className={cn("text-[10px] font-mono font-black tracking-widest", i === 1 ? "text-primary" : "text-gray-700")}>
-                                {i === 1 ? 'ACTIVE' : 'IDLE'}
-                            </span>
                         </div>
                     </motion.div>
                 ))}
