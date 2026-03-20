@@ -4,8 +4,13 @@ import React from "react";
 import { motion } from "framer-motion";
 
 const brands = [
-  "Acme AI", "Nexus Corp", "Vortex Labs", "Stellar Support", "Hyperion", 
-  "Aether", "L"
+  "Acme AI",
+  "Nexus Corp",
+  "Vortex Labs",
+  "Stellar Support",
+  "Hyperion",
+  "Aether",
+  "L",
 ];
 
 const Marquee = () => {
@@ -13,10 +18,10 @@ const Marquee = () => {
     <div className="py-16 md:py-24 border-y border-white/5 bg-[#080809] overflow-hidden relative">
       <div className="max-w-7xl mx-auto px-4 mb-8 md:mb-14 text-center">
         <motion.div
-           initial={{ opacity: 0, y: 10 }}
-           whileInView={{ opacity: 1, y: 0 }}
-           viewport={{ once: true }}
-           className="inline-flex flex-col items-center gap-2"
+          initial={{ opacity: 0, y: 10 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="inline-flex flex-col items-center gap-2"
         >
           <span className="text-[10px] font-black tracking-[0.6em] text-gray-500 uppercase ml-[0.6em]">
             Trusted by Innovative Brands
@@ -24,12 +29,12 @@ const Marquee = () => {
           <div className="h-px w-12 bg-primary/40 shadow-[0_0_10px_rgba(139,92,246,0.3)]" />
         </motion.div>
       </div>
-      
+
       <div className="relative flex overflow-hidden group py-4">
-        <motion.div 
+        <motion.div
           className="flex items-center whitespace-nowrap min-w-max"
           animate={{ x: ["0%", "-50%"] }}
-          transition={{ 
+          transition={{
             duration: 35,
             repeat: Infinity,
             ease: "linear",

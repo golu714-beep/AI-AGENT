@@ -1,6 +1,5 @@
 "use client";
 
-
 import React from "react";
 import { motion, useMotionValue, useSpring, useTransform } from "framer-motion";
 import { cn } from "@/lib/utils";
@@ -15,29 +14,37 @@ interface BentoCardProps {
   delay?: number;
 }
 
-const BentoCard = ({ children, className, title, description, icon, span = "col-span-1", delay = 0 }: BentoCardProps) => {
+const BentoCard = ({
+  children,
+  className,
+  title,
+  description,
+  icon,
+  span = "col-span-1",
+  delay = 0,
+}: BentoCardProps) => {
   const cardRef = React.useRef<HTMLDivElement>(null);
-  
+
   // Tilt values
   const x = useMotionValue(0);
   const y = useMotionValue(0);
-  
+
   const mouseX = useSpring(x, { stiffness: 150, damping: 20 });
   const mouseY = useSpring(y, { stiffness: 150, damping: 20 });
-  
+
   const rotateX = useTransform(mouseY, [-0.5, 0.5], ["7deg", "-7deg"]);
   const rotateY = useTransform(mouseX, [-0.5, 0.5], ["-7deg", "7deg"]);
 
   const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
     if (!cardRef.current) return;
     const rect = cardRef.current.getBoundingClientRect();
-    
+
     // For general mouse position (glow)
     const mx = e.clientX - rect.left;
     const my = e.clientY - rect.top;
     cardRef.current.style.setProperty("--mouse-x", `${mx}px`);
     cardRef.current.style.setProperty("--mouse-y", `${my}px`);
-    
+
     // For tilt
     const width = rect.width;
     const height = rect.height;
@@ -64,23 +71,23 @@ const BentoCard = ({ children, className, title, description, icon, span = "col-
       }}
       variants={{
         hidden: { opacity: 0, y: 30 },
-        show: { 
-          opacity: 1, 
+        show: {
+          opacity: 1,
           y: 0,
           transition: {
             duration: 0.8,
-            ease: [0.16, 1, 0.3, 1]
-          }
-        }
+            ease: [0.16, 1, 0.3, 1],
+          },
+        },
       }}
       className={cn(
         "glass-card flex flex-col group relative perspective-1000",
         span,
-        className
+        className,
       )}
     >
       <div className="border-beam" />
-      
+
       {/* Refined macOS Window Controls */}
       <div className="px-5 py-3 flex items-center justify-between border-b border-white/[0.04] bg-white/[0.01]">
         <div className="flex gap-2">
@@ -93,16 +100,19 @@ const BentoCard = ({ children, className, title, description, icon, span = "col-
         </div>
       </div>
 
-      <div className="p-6 md:p-8 flex flex-col h-full relative z-10" style={{ transform: "translateZ(50px)" }}>
-        <motion.div 
-            whileHover={{ scale: 1.15, rotate: 8 }}
-            className="mb-5 inline-flex p-3 rounded-2xl bg-white/[0.02] border border-white/[0.05] group-hover:border-primary/40 group-hover:bg-primary/10 transition-all duration-500 w-fit shadow-2xl"
+      <div
+        className="p-6 md:p-8 flex flex-col h-full relative z-10"
+        style={{ transform: "translateZ(50px)" }}
+      >
+        <motion.div
+          whileHover={{ scale: 1.15, rotate: 8 }}
+          className="mb-5 inline-flex p-3 rounded-2xl bg-white/[0.02] border border-white/[0.05] group-hover:border-primary/40 group-hover:bg-primary/10 transition-all duration-500 w-fit shadow-2xl"
         >
           <div className="text-gray-500 group-hover:text-primary transition-all duration-500 scale-110">
             {icon}
           </div>
         </motion.div>
-        
+
         <h3 className="text-xl md:text-2xl font-bold mb-3 tracking-tight group-hover:text-white transition-colors text-gradient">
           {title}
         </h3>
@@ -114,12 +124,12 @@ const BentoCard = ({ children, className, title, description, icon, span = "col-
           {children}
         </div>
       </div>
-      
+
       {/* Dynamic Cursor Glow */}
-      <div 
+      <div
         className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none"
         style={{
-            background: `radial-gradient(800px circle at var(--mouse-x) var(--mouse-y), rgba(139, 92, 246, 0.1), transparent 50%)`
+          background: `radial-gradient(800px circle at var(--mouse-x) var(--mouse-y), rgba(139, 92, 246, 0.1), transparent 50%)`,
         }}
       />
     </motion.div>

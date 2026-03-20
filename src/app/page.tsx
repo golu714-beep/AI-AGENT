@@ -21,10 +21,10 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Marquee />
-      
+
       <BentoGrid />
       <BusinessSolutions />
-      
+
       <FeaturesShowcase />
 
       <OnboardingFlow />
@@ -32,13 +32,13 @@ export default function Home() {
       <ServiceCovers />
 
       <DeploymentProcess />
-      
+
       <BusinessUseCases />
 
       <ROICalculator />
 
       <Pricing />
-      
+
       <Testimonials />
 
       <Footer />
