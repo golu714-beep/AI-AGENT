@@ -26,7 +26,7 @@ const voices = [
     accent: "Hindi-IN",
     confidence: 99.4,
     tag: "MODEL_A_82",
-    audio: "./audio/voices/arushiVoice.aac",
+    audio: "/audio/voices/arushiVoice.aac",
   },
   {
     id: "imran",
@@ -35,7 +35,7 @@ const voices = [
     accent: "Urdu-IN",
     confidence: 98.9,
     tag: "MODEL_I_44",
-    audio: "./audio/voices/imranVoice.aac",
+    audio: "/audio/voices/imranVoice.aac",
   },
   {
     id: "neha",
@@ -44,7 +44,7 @@ const voices = [
     accent: "English-IN",
     confidence: 99.2,
     tag: "MODEL_N_12",
-    audio: "./audio/voices/nehaVoice.aac",
+    audio: "/audio/voices/nehaVoice.aac",
   },
   {
     id: "riya",
@@ -53,7 +53,7 @@ const voices = [
     accent: "Bengali-IN",
     confidence: 97.8,
     tag: "MODEL_R_05",
-    audio: "./audio/voices/riyaVoice.aac",
+    audio: "/audio/voices/riyaVoice.aac",
   },
   {
     id: "vikram",
@@ -62,7 +62,7 @@ const voices = [
     accent: "Tamil-IN",
     confidence: 98.5,
     tag: "MODEL_V_99",
-    audio: "./audio/voices/vikramVoice.aac",
+    audio: "/audio/voices/vikramVoice.aac",
   },
 ];
 

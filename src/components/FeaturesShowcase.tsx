@@ -37,8 +37,8 @@ const features = [
     ],
     visual: {
       type: "video",
-      src: "./asset/assets/campaign.mp4",
-      poster: "./asset/assets/Fcampaign.png",
+      src: "/asset/assets/campaign.mp4",
+      poster: "/asset/assets/Fcampaign.png",
     },
     icon: <Phone className="w-5 h-5" />,
     accent: "blue",
@@ -57,8 +57,8 @@ const features = [
     ],
     visual: {
       type: "video",
-      src: "./asset/assets/leads.mp4",
-      poster: "./asset/assets/Fleads.png",
+      src: "/asset/assets/leads.mp4",
+      poster: "/asset/assets/Fleads.png",
     },
     icon: <Users className="w-5 h-5" />,
     accent: "indigo",
@@ -78,8 +78,8 @@ const features = [
     ],
     visual: {
       type: "video",
-      src: "./asset/assets/automation.mp4",
-      poster: "./asset/assets/Fworkflows.png",
+      src: "/asset/assets/automation.mp4",
+      poster: "/asset/assets/Fworkflows.png",
     },
     icon: <Settings className="w-5 h-5" />,
     accent: "cyan",

@@ -112,7 +112,7 @@ const Navbar = () => {
                 <div className="relative">
                   <div className="p-1 rounded-xl transition-all duration-500">
                     <img
-                      src="./asset/assets/aitelz_transparent.png"
+                      src="/asset/assets/aitelz_transparent.png"
                       alt="AITELZ"
                       className="h-5.5 w-auto object-contain brightness-0 invert opacity-90 group-hover/logo:opacity-100 transition-all duration-500 drop-shadow-[0_0_8px_rgba(255,255,255,0.3)]"
                     />
