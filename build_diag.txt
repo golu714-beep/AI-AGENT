@@ -1,0 +1,1124 @@
+﻿
+> bento-app@0.1.0 build
+> next build
+
+Γû▓ Next.js 16.1.6 (Turbopack)
+
+  Creating an optimized production build ...
+node.exe : 
+CssSyntaxError: C:\User
+s\lyric\OneDrive\Docume
+nts\ReTry\src\app\globa
+ls.css:2:59346: Missed 
+semicolon
+At line:1 char:1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo 
+...
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (CssSyntaxErro   
+ r:...issed semicol    
+on:String) [], Rem    
+oteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+    [2mat Input.error 
+(node_modules/postcss/l
+ib/input.js:135:16) [C:
+\Users\lyric\OneDrive\D
+ocuments\ReTry\.next\bu
+ild\chunks\node_modules
+_fe693df6._.js:4651:22]
+[0m
+    [2mat Parser.check
+MissedSemicolon (node_m
+odules/postcss/lib/pars
+er.js:138:22) [C:\Users
+\lyric\OneDrive\Documen
+ts\ReTry\.next\build\ch
+unks\node_modules_fe693
+df6._.js:5439:26][0m
+    [2mat Parser.decl 
+(node_modules/postcss/l
+ib/parser.js:296:12) [C
+:\Users\lyric\OneDrive\
+Documents\ReTry\.next\b
+uild\chunks\node_module
+s_fe693df6._.js:5572:18
+][0m
+    [2mat 
+Parser.other (node_modu
+les/postcss/lib/parser.
+js:435:12) [C:\Users\ly
+ric\OneDrive\Documents\
+ReTry\.next\build\chunk
+s\node_modules_fe693df6
+._.js:5695:18][0m
+    [2mat 
+Parser.parse (node_modu
+les/postcss/lib/parser.
+js:472:16) [C:\Users\ly
+ric\OneDrive\Documents\
+ReTry\.next\build\chunk
+s\node_modules_fe693df6
+._.js:5724:26][0m
+    [2mat 
+postcss.parse (node_mod
+ules/postcss/lib/parse.
+js:11:12) [C:\Users\lyr
+ic\OneDrive\Documents\R
+eTry\.next\build\chunks
+\node_modules_fe693df6.
+_.js:5861:16][0m
+    [2m[at 
+Object.Once (C:\Users\l
+yric\OneDrive\Documents
+\ReTry\node_modules\@ta
+ilwindcss\postcss\dist\
+index.js:10:6195)][0m
+    [2mat async 
+LazyResult.runAsync (no
+de_modules/postcss/lib/
+lazy-result.js:293:11) 
+[C:\Users\lyric\OneDriv
+e\Documents\ReTry\.next
+\build\chunks\node_modu
+les_fe693df6._.js:6214:
+21][0m
+    [2mat async 
+transform (turbopack://
+/[turbopack-node]/trans
+forms/postcss.ts:70:34)
+ [C:\Users\lyric\OneDri
+ve\Documents\ReTry\.nex
+t\build\chunks\[root-of
+-the-server]__51225daf.
+_.js:146:36][0m
+    [2mat async run (t
+urbopack:///[turbopack-
+node]/ipc/evaluate.ts:9
+2:23) [C:\Users\lyric\O
+neDrive\Documents\ReTry
+\.next\build\chunks\[ro
+ot-of-the-server]__9749
+41ed._.js:443:31][0m {
+  reason: 'Missed 
+semicolon',
+  file: 'C:\\Users\\lyr
+ic\\OneDrive\\Documents
+\\ReTry\\src\\app\\glob
+als.css',
+  source: '/*! 
+tailwindcss v4.2.1 | 
+MIT License | https://t
+ailwindcss.com */\n' +
+    '@layer 
+properties{@supports ((
+(-webkit-hyphens:none))
+ and (not 
+(margin-trim:inline))) 
+or 
+((-moz-orient:inline) 
+and (not 
+(color:rgb(from red r 
+g b)))){*,:before,:afte
+r,::backdrop{--tw-trans
+late-x:0;--tw-translate
+-y:0;--tw-translate-z:0
+;--tw-scale-x:1;--tw-sc
+ale-y:1;--tw-scale-z:1;
+--tw-rotate-x:initial;-
+-tw-rotate-y:initial;--
+tw-rotate-z:initial;--t
+w-skew-x:initial;--tw-s
+kew-y:initial;--tw-spac
+e-y-reverse:0;--tw-bord
+er-style:solid;--tw-gra
+dient-position:initial;
+--tw-gradient-from:#000
+0;--tw-gradient-via:#00
+00;--tw-gradient-to:#00
+00;--tw-gradient-stops:
+initial;--tw-gradient-v
+ia-stops:initial;--tw-g
+radient-from-position:0
+%;--tw-gradient-via-pos
+ition:50%;--tw-gradient
+-to-position:100%;--tw-
+leading:initial;--tw-fo
+nt-weight:initial;--tw-
+tracking:initial;--tw-s
+hadow:0 0 #0000;--tw-sh
+adow-color:initial;--tw
+-shadow-alpha:100%;--tw
+-inset-shadow:0 0 #0000
+;--tw-inset-shadow-colo
+r:initial;--tw-inset-sh
+adow-alpha:100%;--tw-ri
+ng-color:initial;--tw-r
+ing-shadow:0 0 #0000;--
+tw-inset-ring-color:ini
+tial;--tw-inset-ring-sh
+adow:0 0 #0000;--tw-rin
+g-inset:initial;--tw-ri
+ng-offset-width:0px;--t
+w-ring-offset-color:#ff
+f;--tw-ring-offset-shad
+ow:0 0 #0000;--tw-blur:
+initial;--tw-brightness
+:initial;--tw-contrast:
+initial;--tw-grayscale:
+initial;--tw-hue-rotate
+:initial;--tw-invert:in
+itial;--tw-opacity:init
+ial;--tw-saturate:initi
+al;--tw-sepia:initial;-
+-tw-drop-shadow:initial
+;--tw-drop-shadow-color
+:initial;--tw-drop-shad
+ow-alpha:100%;--tw-drop
+-shadow-size:initial;--
+tw-backdrop-blur:initia
+l;--tw-backdrop-brightn
+ess:initial;--tw-backdr
+op-contrast:initial;--t
+w-backdrop-grayscale:in
+itial;--tw-backdrop-hue
+-rotate:initial;--tw-ba
+ckdrop-invert:initial;-
+-tw-backdrop-opacity:in
+itial;--tw-backdrop-sat
+urate:initial;--tw-back
+drop-sepia:initial;--tw
+-duration:initial;--bea
+m-angle:0deg}}}@layer t
+heme{:root,:host{--font
+-sans:ui-sans-serif, 
+system-ui, sans-serif, 
+"Apple Color Emoji", 
+"Segoe UI Emoji", 
+"Segoe UI Symbol", 
+"Noto Color Emoji";--fo
+nt-mono:ui-monospace, 
+SFMono-Regular, Menlo, 
+Monaco, Consolas, 
+"Liberation Mono", 
+"Courier New", monospac
+e;--color-red-400:oklch
+(70.4% .191 22.216);--c
+olor-red-500:oklch(63.7
+% .237 25.331);--color-
+yellow-400:oklch(85.2% 
+.199 91.936);--color-gr
+een-500:oklch(72.3% 
+.219 149.579);--color-e
+merald-400:oklch(76.5% 
+.177 163.223);--color-e
+merald-500:oklch(69.6% 
+.17 162.48);--color-eme
+rald-600:oklch(59.6% 
+.145 163.225);--color-t
+eal-400:oklch(77.7% 
+.152 181.912);--color-t
+eal-600:oklch(60% .118 
+184.704);--color-cyan-4
+00:oklch(78.9% .154 211
+.53);--color-cyan-500:o
+klch(71.5% .143 215.221
+);--color-cyan-600:oklc
+h(60.9% .126 221.723);-
+-color-blue-400:oklch(7
+0.7% .165 254.624);--co
+lor-blue-500:oklch(62.3
+% .214 259.815);--color
+-blue-600:oklch(54.6% 
+.245 262.881);--color-p
+urple-400:oklch(71.4% 
+.203 305.504);--color-p
+urple-500:oklch(62.7% 
+.265 303.9);--color-pur
+ple-600:oklch(55.8% 
+.288 302.321);--color-g
+ray-100:oklch(96.7% 
+.003 264.542);--color-g
+ray-300:oklch(87.2% 
+.01 258.338);--color-gr
+ay-400:oklch(70.7% 
+.022 261.325);--color-g
+ray-500:oklch(55.1% 
+.027 264.364);--color-g
+ray-600:oklch(44.6% 
+.03 256.802);--color-gr
+ay-700:oklch(37.3% 
+.034 259.733);--color-g
+ray-800:oklch(27.8% 
+.033 256.848);--color-b
+lack:#000;--color-white
+:#fff;--spacing:.25rem;
+--container-xs:20rem;--
+container-sm:24rem;--co
+ntainer-md:28rem;--cont
+ainer-lg:32rem;--contai
+ner-xl:36rem;--containe
+r-2xl:42rem;--container
+-3xl:48rem;--container-
+4xl:56rem;--container-5
+xl:64rem;--container-6x
+l:72rem;--container-7xl
+:80rem;--text-xs:.75rem
+;--text-xs--line-height
+:calc(1 / .75);--text-s
+m:.875rem;--text-sm--li
+ne-height:calc(1.25 / .
+875);--text-base:1rem;-
+-text-base--line-height
+:calc(1.5 / 1);--text-l
+g:1.125rem;--text-lg--l
+ine-height:calc(1.75 / 
+1.125);--text-xl:1.25re
+m;--text-xl--line-heigh
+t:calc(1.75 / 1.25);--t
+ext-2xl:1.5rem;--text-2
+xl--line-height:calc(2 
+/ 1.5);--text-3xl:1.875
+rem;--text-3xl--line-he
+ight:calc(2.25 / 1.875)
+;--text-4xl:2.25rem;--t
+ext-4xl--line-height:ca
+lc(2.5 / 2.25);--text-5
+xl:3rem;--text-5xl--lin
+e-height:1;--text-6xl:3
+.75rem;--text-6xl--line
+-height:1;--text-7xl:4.
+5rem;--text-7xl--line-h
+eight:1;--text-8xl:6rem
+;--text-8xl--line-heigh
+t:1;--font-weight-mediu
+m:500;--font-weight-sem
+ibold:600;--font-weight
+-bold:700;--font-weight
+-extrabold:800;--font-w
+eight-black:900;--track
+ing-tighter:-.05em;--tr
+acking-tight:-.025em;--
+tracking-wider:.05em;--
+tracking-widest:.1em;--
+leading-relaxed:1.625;-
+-radius-sm:.25rem;--rad
+ius-md:.375rem;--radius
+-lg:.5rem;--radius-xl:.
+75rem;--radius-2xl:1rem
+;--radius-3xl:1.5rem;--
+animate-pulse:pulse 2s 
+cubic-bezier(.4, 0, 
+.6, 1) infinite;--blur-
+sm:8px;--blur-md:12px;-
+-blur-xl:24px;--blur-2x
+l:40px;--blur-3xl:64px;
+--default-transition-du
+ration:.15s;--default-t
+ransition-timing-functi
+on:cubic-bezier(.4, 0, 
+.2, 1);--default-font-f
+amily:var(--font-sans);
+--default-mono-font-fam
+ily:var(--font-mono);--
+color-background:#08080
+9;--color-primary:#a78b
+fa;--color-secondary:#0
+6b6d4;--color-accent:#c
+4b5fd;--animate-scanlin
+e:scanline 8s linear in
+finite;--font-plus-jaka
+rta:"Plus Jakarta 
+Sans", 
+sans-serif}}@layer base
+{*,:after,:before,::bac
+kdrop{box-sizing:border
+-box;border:0 solid;mar
+gin:0;padding:0}::file-
+selector-button{box-siz
+ing:border-box;border:0
+ solid;margin:0;padding
+:0}html,:host{-webkit-t
+ext-size-adjust:100%;ta
+b-size:4;line-height:1.
+5;font-family:var(--def
+ault-font-family,ui-san
+s-serif, system-ui, 
+sans-serif, "Apple 
+Color Emoji", "Segoe 
+UI Emoji", "Segoe UI 
+Symbol", "Noto Color Em
+oji");font-feature-sett
+ings:var(--default-font
+-feature-settings,norma
+l);font-variation-setti
+ngs:var(--default-font-
+variation-settings,norm
+al);-webkit-tap-highlig
+ht-color:transparent}hr
+{height:0;color:inherit
+;border-top-width:1px}a
+bbr:where([title]){-web
+kit-text-decoration:und
+erline dotted;text-deco
+ration:underline dotted
+}h1,h2,h3,h4,h5,h6{font
+-size:inherit;font-weig
+ht:inherit}a{color:inhe
+rit;-webkit-text-decora
+tion:inherit;-webkit-te
+xt-decoration:inherit;-
+webkit-text-decoration:
+inherit;text-decoration
+:inherit}b,strong{font-
+weight:bolder}code,kbd,
+samp,pre{font-family:va
+r(--default-mono-font-f
+amily,ui-monospace, 
+SFMono-Regular, Menlo, 
+Monaco, Consolas, 
+"Liberation Mono", 
+"Courier New", monospac
+e);font-feature-setting
+s:var(--default-mono-fo
+nt-feature-settings,nor
+mal);font-variation-set
+tings:var(--default-mon
+o-font-variation-settin
+gs,normal);font-size:1e
+m}small{font-size:80%}s
+ub,sup{vertical-align:b
+aseline;font-size:75%;l
+ine-height:0;position:r
+elative}sub{bottom:-.25
+em}sup{top:-.5em}table{
+text-indent:0;border-co
+lor:inherit;border-coll
+apse:collapse}:-moz-foc
+usring{outline:auto}pro
+gress{vertical-align:ba
+seline}summary{display:
+list-item}ol,ul,menu{li
+st-style:none}img,svg,v
+ideo,canvas,audio,ifram
+e,embed,object{vertical
+-align:middle;display:b
+lock}img,video{max-widt
+h:100%;height:auto}butt
+on,input,select,optgrou
+p,textarea{font:inherit
+;font-feature-settings:
+inherit;font-variation-
+settings:inherit;letter
+-spacing:inherit;color:
+inherit;opacity:1;backg
+round-color:#0000;borde
+r-radius:0}::file-selec
+tor-button{font:inherit
+;font-feature-settings:
+inherit;font-variation-
+settings:inherit;letter
+-spacing:inherit;color:
+inherit;opacity:1;backg
+round-color:#0000;borde
+r-radius:0}:where(selec
+t:is([multiple],[size])
+) optgroup{font-weight:
+bolder}:where(select:is
+([multiple],[size])) 
+optgroup option{padding
+-inline-start:20px}::fi
+le-selector-button{marg
+in-inline-end:4px}::pla
+ceholder{opacity:1}@sup
+ports (not ((-webkit-ap
+pearance:-apple-pay-but
+ton))) or (contain-intr
+insic-size:1px){::place
+holder{color:currentCol
+or}@supports 
+(color:color-mix(in 
+lab, red, red)){::place
+holder{color:color-mix(
+in oklab, currentcolor 
+50%, transparent)}}}tex
+tarea{resize:vertical}:
+:-webkit-search-decorat
+ion{-webkit-appearance:
+none}::-webkit-date-and
+-time-value{min-height:
+1lh;text-align:inherit}
+::-webkit-datetime-edit
+{display:inline-flex}::
+-webkit-datetime-edit-f
+ields-wrapper{padding:0
+}::-webkit-datetime-edi
+t{padding-block:0}::-we
+bkit-datetime-edit-year
+-field{padding-block:0}
+::-webkit-datetime-edit
+-month-field{padding-bl
+ock:0}::-webkit-datetim
+e-edit-day-field{paddin
+g-block:0}::-webkit-dat
+etime-edit-hour-field{p
+adding-block:0}::-webki
+t-datetime-edit-minute-
+field{padding-block:0}:
+:-webkit-datetime-edit-
+second-field{padding-bl
+ock:0}::-webkit-datetim
+e-edit-millisecond-fiel
+d{padding-block:0}::-we
+bkit-datetime-edit-meri
+diem-field{padding-bloc
+k:0}::-webkit-calendar-
+picker-indicator{line-h
+eight:1}:-moz-ui-invali
+d{box-shadow:none}butto
+n,input:where([type=but
+ton],[type=reset],[type
+=submit]){appearance:bu
+tton}::file-selector-bu
+tton{appearance:button}
+::-webkit-inner-spin-bu
+tton{height:auto}::-web
+kit-outer-spin-button{h
+eight:auto}[hidden]:whe
+re(:not([hidden=until-f
+ound])){display:none!im
+portant}:root{--backgro
+und:#080809;--foregroun
+d:#fdfdfd;--selection-b
+g:#8b5cf64d}::selection
+{background:var(--selec
+tion-bg);color:#fff}bod
+y{background:var(--back
+ground);color:var(--for
+eground);--tw-tracking:
+var(--tracking-tight);l
+etter-spacing:var(--tra
+cking-tight);-webkit-fo
+nt-smoothing:antialiase
+d;-moz-osx-font-smoothi
+ng:grayscale;font-famil
+y:var(--font-plus-jakar
+ta);font-feature-settin
+gs:"cv11", "ss01", "ss0
+3";line-height:1.6}h1,h
+2,h3,h4,h5,h6{--tw-font
+-weight:var(--font-weig
+ht-extrabold);font-weig
+ht:var(--font-weight-ex
+trabold);--tw-tracking:
+var(--tracking-tight);l
+etter-spacing:var(--tra
+cking-tight);font-famil
+y:var(--font-plus-jakar
+ta);line-height:1.1}}@l
+ayer components;@layer 
+utilities{.pointer-even
+ts-auto{pointer-events:
+auto}.pointer-events-no
+ne{pointer-events:none}
+.absolute{position:abso
+lute}.fixed{position:fi
+xed}.relative{position:
+relative}.-inset-2{inse
+t:calc(var(--spacing) 
+* -2)}.-inset-10{inset:
+calc(var(--spacing) * -
+10)}.-inset-\\[1px\\]{i
+nset:-1px}.-inset-\\[50
+0\\%\\]{inset:-500%}.in
+set-0{inset:calc(var(--
+spacing) * 0)}.inset-1\
+\/4{inset:25%}.inset-2{
+inset:calc(var(--spacin
+g) * 2)}.inset-4{inset:
+calc(var(--spacing) * 4
+)}.inset-8{inset:calc(v
+ar(--spacing) * 8)}.ins
+et-12{inset:calc(var(--
+spacing) * 12)}.inset-\
+\[1px\\]{inset:1px}.ins
+et-\\[48\\%\\]{inset:48
+%}.inset-x-0{inset-inli
+ne:calc(var(--spacing) 
+* 0)}.inset-y-0{inset-b
+lock:calc(var(--spacing
+) * 0)}.start{inset-inl
+ine-start:var(--spacing
+)}.end{inset-inline-end
+:var(--spacin'... 
+118034 more characters,
+  line: 2,
+  column: 59346,
+  input: {
+    column: 59346,
+    endColumn: 
+undefined,
+    endLine: undefined,
+    endOffset: 
+undefined,
+    line: 2,
+    offset: 59411,
+    source: '/*! 
+tailwindcss v4.2.1 | 
+MIT License | https://t
+ailwindcss.com */\n' +
+      '@layer 
+properties{@supports ((
+(-webkit-hyphens:none))
+ and (not 
+(margin-trim:inline))) 
+or 
+((-moz-orient:inline) 
+and (not 
+(color:rgb(from red r 
+g b)))){*,:before,:afte
+r,::backdrop{--tw-trans
+late-x:0;--tw-translate
+-y:0;--tw-translate-z:0
+;--tw-scale-x:1;--tw-sc
+ale-y:1;--tw-scale-z:1;
+--tw-rotate-x:initial;-
+-tw-rotate-y:initial;--
+tw-rotate-z:initial;--t
+w-skew-x:initial;--tw-s
+kew-y:initial;--tw-spac
+e-y-reverse:0;--tw-bord
+er-style:solid;--tw-gra
+dient-position:initial;
+--tw-gradient-from:#000
+0;--tw-gradient-via:#00
+00;--tw-gradient-to:#00
+00;--tw-gradient-stops:
+initial;--tw-gradient-v
+ia-stops:initial;--tw-g
+radient-from-position:0
+%;--tw-gradient-via-pos
+ition:50%;--tw-gradient
+-to-position:100%;--tw-
+leading:initial;--tw-fo
+nt-weight:initial;--tw-
+tracking:initial;--tw-s
+hadow:0 0 #0000;--tw-sh
+adow-color:initial;--tw
+-shadow-alpha:100%;--tw
+-inset-shadow:0 0 #0000
+;--tw-inset-shadow-colo
+r:initial;--tw-inset-sh
+adow-alpha:100%;--tw-ri
+ng-color:initial;--tw-r
+ing-shadow:0 0 #0000;--
+tw-inset-ring-color:ini
+tial;--tw-inset-ring-sh
+adow:0 0 #0000;--tw-rin
+g-inset:initial;--tw-ri
+ng-offset-width:0px;--t
+w-ring-offset-color:#ff
+f;--tw-ring-offset-shad
+ow:0 0 #0000;--tw-blur:
+initial;--tw-brightness
+:initial;--tw-contrast:
+initial;--tw-grayscale:
+initial;--tw-hue-rotate
+:initial;--tw-invert:in
+itial;--tw-opacity:init
+ial;--tw-saturate:initi
+al;--tw-sepia:initial;-
+-tw-drop-shadow:initial
+;--tw-drop-shadow-color
+:initial;--tw-drop-shad
+ow-alpha:100%;--tw-drop
+-shadow-size:initial;--
+tw-backdrop-blur:initia
+l;--tw-backdrop-brightn
+ess:initial;--tw-backdr
+op-contrast:initial;--t
+w-backdrop-grayscale:in
+itial;--tw-backdrop-hue
+-rotate:initial;--tw-ba
+ckdrop-invert:initial;-
+-tw-backdrop-opacity:in
+itial;--tw-backdrop-sat
+urate:initial;--tw-back
+drop-sepia:initial;--tw
+-duration:initial;--bea
+m-angle:0deg}}}@layer t
+heme{:root,:host{--font
+-sans:ui-sans-serif, 
+system-ui, sans-serif, 
+"Apple Color Emoji", 
+"Segoe UI Emoji", 
+"Segoe UI Symbol", 
+"Noto Color Emoji";--fo
+nt-mono:ui-monospace, 
+SFMono-Regular, Menlo, 
+Monaco, Consolas, 
+"Liberation Mono", 
+"Courier New", monospac
+e;--color-red-400:oklch
+(70.4% .191 22.216);--c
+olor-red-500:oklch(63.7
+% .237 25.331);--color-
+yellow-400:oklch(85.2% 
+.199 91.936);--color-gr
+een-500:oklch(72.3% 
+.219 149.579);--color-e
+merald-400:oklch(76.5% 
+.177 163.223);--color-e
+merald-500:oklch(69.6% 
+.17 162.48);--color-eme
+rald-600:oklch(59.6% 
+.145 163.225);--color-t
+eal-400:oklch(77.7% 
+.152 181.912);--color-t
+eal-600:oklch(60% .118 
+184.704);--color-cyan-4
+00:oklch(78.9% .154 211
+.53);--color-cyan-500:o
+klch(71.5% .143 215.221
+);--color-cyan-600:oklc
+h(60.9% .126 221.723);-
+-color-blue-400:oklch(7
+0.7% .165 254.624);--co
+lor-blue-500:oklch(62.3
+% .214 259.815);--color
+-blue-600:oklch(54.6% 
+.245 262.881);--color-p
+urple-400:oklch(71.4% 
+.203 305.504);--color-p
+urple-500:oklch(62.7% 
+.265 303.9);--color-pur
+ple-600:oklch(55.8% 
+.288 302.321);--color-g
+ray-100:oklch(96.7% 
+.003 264.542);--color-g
+ray-300:oklch(87.2% 
+.01 258.338);--color-gr
+ay-400:oklch(70.7% 
+.022 261.325);--color-g
+ray-500:oklch(55.1% 
+.027 264.364);--color-g
+ray-600:oklch(44.6% 
+.03 256.802);--color-gr
+ay-700:oklch(37.3% 
+.034 259.733);--color-g
+ray-800:oklch(27.8% 
+.033 256.848);--color-b
+lack:#000;--color-white
+:#fff;--spacing:.25rem;
+--container-xs:20rem;--
+container-sm:24rem;--co
+ntainer-md:28rem;--cont
+ainer-lg:32rem;--contai
+ner-xl:36rem;--containe
+r-2xl:42rem;--container
+-3xl:48rem;--container-
+4xl:56rem;--container-5
+xl:64rem;--container-6x
+l:72rem;--container-7xl
+:80rem;--text-xs:.75rem
+;--text-xs--line-height
+:calc(1 / .75);--text-s
+m:.875rem;--text-sm--li
+ne-height:calc(1.25 / .
+875);--text-base:1rem;-
+-text-base--line-height
+:calc(1.5 / 1);--text-l
+g:1.125rem;--text-lg--l
+ine-height:calc(1.75 / 
+1.125);--text-xl:1.25re
+m;--text-xl--line-heigh
+t:calc(1.75 / 1.25);--t
+ext-2xl:1.5rem;--text-2
+xl--line-height:calc(2 
+/ 1.5);--text-3xl:1.875
+rem;--text-3xl--line-he
+ight:calc(2.25 / 1.875)
+;--text-4xl:2.25rem;--t
+ext-4xl--line-height:ca
+lc(2.5 / 2.25);--text-5
+xl:3rem;--text-5xl--lin
+e-height:1;--text-6xl:3
+.75rem;--text-6xl--line
+-height:1;--text-7xl:4.
+5rem;--text-7xl--line-h
+eight:1;--text-8xl:6rem
+;--text-8xl--line-heigh
+t:1;--font-weight-mediu
+m:500;--font-weight-sem
+ibold:600;--font-weight
+-bold:700;--font-weight
+-extrabold:800;--font-w
+eight-black:900;--track
+ing-tighter:-.05em;--tr
+acking-tight:-.025em;--
+tracking-wider:.05em;--
+tracking-widest:.1em;--
+leading-relaxed:1.625;-
+-radius-sm:.25rem;--rad
+ius-md:.375rem;--radius
+-lg:.5rem;--radius-xl:.
+75rem;--radius-2xl:1rem
+;--radius-3xl:1.5rem;--
+animate-pulse:pulse 2s 
+cubic-bezier(.4, 0, 
+.6, 1) infinite;--blur-
+sm:8px;--blur-md:12px;-
+-blur-xl:24px;--blur-2x
+l:40px;--blur-3xl:64px;
+--default-transition-du
+ration:.15s;--default-t
+ransition-timing-functi
+on:cubic-bezier(.4, 0, 
+.2, 1);--default-font-f
+amily:var(--font-sans);
+--default-mono-font-fam
+ily:var(--font-mono);--
+color-background:#08080
+9;--color-primary:#a78b
+fa;--color-secondary:#0
+6b6d4;--color-accent:#c
+4b5fd;--animate-scanlin
+e:scanline 8s linear in
+finite;--font-plus-jaka
+rta:"Plus Jakarta 
+Sans", 
+sans-serif}}@layer base
+{*,:after,:before,::bac
+kdrop{box-sizing:border
+-box;border:0 solid;mar
+gin:0;padding:0}::file-
+selector-button{box-siz
+ing:border-box;border:0
+ solid;margin:0;padding
+:0}html,:host{-webkit-t
+ext-size-adjust:100%;ta
+b-size:4;line-height:1.
+5;font-family:var(--def
+ault-font-family,ui-san
+s-serif, system-ui, 
+sans-serif, "Apple 
+Color Emoji", "Segoe 
+UI Emoji", "Segoe UI 
+Symbol", "Noto Color Em
+oji");font-feature-sett
+ings:var(--default-font
+-feature-settings,norma
+l);font-variation-setti
+ngs:var(--default-font-
+variation-settings,norm
+al);-webkit-tap-highlig
+ht-color:transparent}hr
+{height:0;color:inherit
+;border-top-width:1px}a
+bbr:where([title]){-web
+kit-text-decoration:und
+erline dotted;text-deco
+ration:underline dotted
+}h1,h2,h3,h4,h5,h6{font
+-size:inherit;font-weig
+ht:inherit}a{color:inhe
+rit;-webkit-text-decora
+tion:inherit;-webkit-te
+xt-decoration:inherit;-
+webkit-text-decoration:
+inherit;text-decoration
+:inherit}b,strong{font-
+weight:bolder}code,kbd,
+samp,pre{font-family:va
+r(--default-mono-font-f
+amily,ui-monospace, 
+SFMono-Regular, Menlo, 
+Monaco, Consolas, 
+"Liberation Mono", 
+"Courier New", monospac
+e);font-feature-setting
+s:var(--default-mono-fo
+nt-feature-settings,nor
+mal);font-variation-set
+tings:var(--default-mon
+o-font-variation-settin
+gs,normal);font-size:1e
+m}small{font-size:80%}s
+ub,sup{vertical-align:b
+aseline;font-size:75%;l
+ine-height:0;position:r
+elative}sub{bottom:-.25
+em}sup{top:-.5em}table{
+text-indent:0;border-co
+lor:inherit;border-coll
+apse:collapse}:-moz-foc
+usring{outline:auto}pro
+gress{vertical-align:ba
+seline}summary{display:
+list-item}ol,ul,menu{li
+st-style:none}img,svg,v
+ideo,canvas,audio,ifram
+e,embed,object{vertical
+-align:middle;display:b
+lock}img,video{max-widt
+h:100%;height:auto}butt
+on,input,select,optgrou
+p,textarea{font:inherit
+;font-feature-settings:
+inherit;font-variation-
+settings:inherit;letter
+-spacing:inherit;color:
+inherit;opacity:1;backg
+round-color:#0000;borde
+r-radius:0}::file-selec
+tor-button{font:inherit
+;font-feature-settings:
+inherit;font-variation-
+settings:inherit;letter
+-spacing:inherit;color:
+inherit;opacity:1;backg
+round-color:#0000;borde
+r-radius:0}:where(selec
+t:is([multiple],[size])
+) optgroup{font-weight:
+bolder}:where(select:is
+([multiple],[size])) 
+optgroup option{padding
+-inline-start:20px}::fi
+le-selector-button{marg
+in-inline-end:4px}::pla
+ceholder{opacity:1}@sup
+ports (not ((-webkit-ap
+pearance:-apple-pay-but
+ton))) or (contain-intr
+insic-size:1px){::place
+holder{color:currentCol
+or}@supports 
+(color:color-mix(in 
+lab, red, red)){::place
+holder{color:color-mix(
+in oklab, currentcolor 
+50%, transparent)}}}tex
+tarea{resize:vertical}:
+:-webkit-search-decorat
+ion{-webkit-appearance:
+none}::-webkit-date-and
+-time-value{min-height:
+1lh;text-align:inherit}
+::-webkit-datetime-edit
+{display:inline-flex}::
+-webkit-datetime-edit-f
+ields-wrapper{padding:0
+}::-webkit-datetime-edi
+t{padding-block:0}::-we
+bkit-datetime-edit-year
+-field{padding-block:0}
+::-webkit-datetime-edit
+-month-field{padding-bl
+ock:0}::-webkit-datetim
+e-edit-day-field{paddin
+g-block:0}::-webkit-dat
+etime-edit-hour-field{p
+adding-block:0}::-webki
+t-datetime-edit-minute-
+field{padding-block:0}:
+:-webkit-datetime-edit-
+second-field{padding-bl
+ock:0}::-webkit-datetim
+e-edit-millisecond-fiel
+d{padding-block:0}::-we
+bkit-datetime-edit-meri
+diem-field{padding-bloc
+k:0}::-webkit-calendar-
+picker-indicator{line-h
+eight:1}:-moz-ui-invali
+d{box-shadow:none}butto
+n,input:where([type=but
+ton],[type=reset],[type
+=submit]){appearance:bu
+tton}::file-selector-bu
+tton{appearance:button}
+::-webkit-inner-spin-bu
+tton{height:auto}::-web
+kit-outer-spin-button{h
+eight:auto}[hidden]:whe
+re(:not([hidden=until-f
+ound])){display:none!im
+portant}:root{--backgro
+und:#080809;--foregroun
+d:#fdfdfd;--selection-b
+g:#8b5cf64d}::selection
+{background:var(--selec
+tion-bg);color:#fff}bod
+y{background:var(--back
+ground);color:var(--for
+eground);--tw-tracking:
+var(--tracking-tight);l
+etter-spacing:var(--tra
+cking-tight);-webkit-fo
+nt-smoothing:antialiase
+d;-moz-osx-font-smoothi
+ng:grayscale;font-famil
+y:var(--font-plus-jakar
+ta);font-feature-settin
+gs:"cv11", "ss01", "ss0
+3";line-height:1.6}h1,h
+2,h3,h4,h5,h6{--tw-font
+-weight:var(--font-weig
+ht-extrabold);font-weig
+ht:var(--font-weight-ex
+trabold);--tw-tracking:
+var(--tracking-tight);l
+etter-spacing:var(--tra
+cking-tight);font-famil
+y:var(--font-plus-jakar
+ta);line-height:1.1}}@l
+ayer components;@layer 
+utilities{.pointer-even
+ts-auto{pointer-events:
+auto}.pointer-events-no
+ne{pointer-events:none}
+.absolute{position:abso
+lute}.fixed{position:fi
+xed}.relative{position:
+relative}.-inset-2{inse
+t:calc(var(--spacing) 
+* -2)}.-inset-10{inset:
+calc(var(--spacing) * -
+10)}.-inset-\\[1px\\]{i
+nset:-1px}.-inset-\\[50
+0\\%\\]{inset:-500%}.in
+set-0{inset:calc(var(--
+spacing) * 0)}.inset-1\
+\/4{inset:25%}.inset-2{
+inset:calc(var(--spacin
+g) * 2)}.inset-4{inset:
+calc(var(--spacing) * 4
+)}.inset-8{inset:calc(v
+ar(--spacing) * 8)}.ins
+et-12{inset:calc(var(--
+spacing) * 12)}.inset-\
+\[1px\\]{inset:1px}.ins
+et-\\[48\\%\\]{inset:48
+%}.inset-x-0{inset-inli
+ne:calc(var(--spacing) 
+* 0)}.inset-y-0{inset-b
+lock:calc(var(--spacing
+) * 0)}.start{inset-inl
+ine-start:var(--spacing
+)}.end{inset-inline-end
+:var(--spacin'... 
+118034 more characters,
+    url: 'file:///C:/Us
+ers/lyric/OneDrive/Docu
+ments/ReTry/src/app/glo
+bals.css',
+    file: 'C:\\Users\\l
+yric\\OneDrive\\Documen
+ts\\ReTry\\src\\app\\gl
+obals.css'
+  }
+}
+
+> Build error occurred
+Error: Turbopack build 
+failed with 1 errors:
+./src/app/globals.css
+Error evaluating 
+Node.js code
+CssSyntaxError: 
+tailwindcss: C:\Users\l
+yric\OneDrive\Documents
+\ReTry\src\app\globals.
+css:1:1: C:\Users\lyric
+\OneDrive\Documents\ReT
+ry\src\app\globals.css:
+2:59346: Missed 
+semicolon
+    at Input.error (nod
+e_modules/postcss/lib/i
+nput.js:135:16) [C:\Use
+rs\lyric\OneDrive\Docum
+ents\ReTry\.next\build\
+chunks\node_modules_fe6
+93df6._.js:4651:22]
+    at Root.error (node
+_modules/postcss/lib/no
+de.js:146:32) [C:\Users
+\lyric\OneDrive\Documen
+ts\ReTry\.next\build\ch
+unks\node_modules_fe693
+df6._.js:928:38]
+    [at Object.Once (C:
+\Users\lyric\OneDrive\D
+ocuments\ReTry\node_mod
+ules\@tailwindcss\postc
+ss\dist\index.js:10:691
+3)]
+    at async 
+LazyResult.runAsync (no
+de_modules/postcss/lib/
+lazy-result.js:293:11) 
+[C:\Users\lyric\OneDriv
+e\Documents\ReTry\.next
+\build\chunks\node_modu
+les_fe693df6._.js:6214:
+21]
+    at async transform 
+(turbopack:///[turbopac
+k-node]/transforms/post
+css.ts:70:34) [C:\Users
+\lyric\OneDrive\Documen
+ts\ReTry\.next\build\ch
+unks\[root-of-the-serve
+r]__51225daf._.js:146:3
+6]
+    at async run (turbo
+pack:///[turbopack-node
+]/ipc/evaluate.ts:92:23
+) [C:\Users\lyric\OneDr
+ive\Documents\ReTry\.ne
+xt\build\chunks\[root-o
+f-the-server]__974941ed
+._.js:443:31]
+
+Import trace:
+  Client Component 
+Browser:
+    
+./src/app/globals.css 
+[Client Component 
+Browser]
+    
+./src/app/layout.tsx 
+[Server Component]
+
+
+    at async transform 
+(turbopack:///[turbopac
+k-node]/transforms/post
+css.ts:70:34) [C:\Users
+\lyric\OneDrive\Documen
+ts\ReTry\.next\build\ch
+unks\[root-of-the-serve
+r]__51225daf._.js:146:3
+6])
+    at async run (turbo
+pack:///[turbopack-node
+]/ipc/evaluate.ts:92:23
+) [C:\Users\lyric\OneDr
+ive\Documents\ReTry\.ne
+xt\build\chunks\[root-o
+f-the-server]__974941ed
+._.js:443:31])

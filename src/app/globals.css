@@ -143,12 +143,7 @@
   }
 }
 
-@property --beam-angle {
-  syntax: '<angle>';
-  initial-value: 0deg;
-  inherits: false;
-}
-
+/* @property --beam-angle block removed to fix build error */
 /* Scrollbar (Outside Layers as they are pseudo-elements) */
 ::-webkit-scrollbar {
   width: 6px;
